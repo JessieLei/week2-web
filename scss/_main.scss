@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+img {
+  vertical-align: middle;
+}
+
 header {
   text-align-last: left;
   display: flex;
@@ -75,7 +79,9 @@ header {
   }
   ul {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 24px;
   }
 }
 
